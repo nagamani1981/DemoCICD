@@ -8,8 +8,9 @@
   <name>E2EProject</name>
   <url>http://maven.apache.org</url>
   
-  
-
+<profiles>
+	<profile>  
+	<id>Regression</id>
   <build>
    <resources>
         <resource>
@@ -34,6 +35,8 @@
   
   
   </build>
+  </profile>
+  </profiles>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
